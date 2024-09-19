@@ -10,11 +10,11 @@ import 'view_vehicle_page.dart';
 
 Future<MySQLConnection> createConnection() async {
   return MySQLConnection.createConnection(
-    host: "10.0.2.2",
+    host: "localhost",
     port: 3306,
-    userName: "root",
-    password: "gean0",
-    databaseName: "locadora_db",
+    userName: "local_username",
+    password: "local_password",
+    databaseName: "local_db",
   );
 }
 
